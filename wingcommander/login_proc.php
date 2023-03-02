@@ -15,6 +15,9 @@ $user_name =  $_POST['username'];
       session_start();
 			$_SESSION['user_id'] = $finalData['user_id'];
 			$_SESSION['user_name'] = $finalData['user_name'];
+			 header("Location: Flight_booking.html");
+			exit();
+			
     }
     else {
       echo "<script>alert('Invalid Username or Password');</script>";
