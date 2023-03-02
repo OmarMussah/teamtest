@@ -85,14 +85,14 @@
 </head>
 <body>
 	<h1> Welcome back!</h1>
-	<form action="login_proc.php" method="POST" onsubmit="return validate()">
+	<form action="login_proc.php" method="POST">
 		<label for="username">Username:</label>
 		<input type="text" id="username" name="username" required><br>
 		<label for="password">Password:</label>
 		<input type="password" id="password" name="password" required><br>
 		<input type="submit" value="Login">
         <div id="error-message"></div>
-	    <p>Forgot password? <a href="#" onclick="resetPassword()">Reset it here</a>.</p>
+	    <p>Forgot password? <a href="#">Reset it here</a>.</p>
 	</form>
         <a href="index.html">
         <button id="back">&nbsp;Back</button>
