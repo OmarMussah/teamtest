@@ -3,8 +3,8 @@
 //database connection parameters
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "wingcommander";
+$password = "root";
+$dbname = "WingCommander";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
